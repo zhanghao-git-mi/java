@@ -1,8 +1,10 @@
+package proxy;
+
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
-//动态反射类
+//动态反射类(代理类)
 public class ProxyInovationHandler implements InvocationHandler {
     private Object obj;
 

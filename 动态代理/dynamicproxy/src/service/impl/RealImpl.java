@@ -1,7 +1,11 @@
+package service.impl;
+
+import service.Real;
+
 /**
  * 真实类（被代理的类）
  */
-public class Host implements Rent{
+public class RealImpl implements Real {
 
     @Override
     public void test() {

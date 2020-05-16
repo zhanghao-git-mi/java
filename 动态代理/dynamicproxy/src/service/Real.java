@@ -1,5 +1,9 @@
-//用来测试动态代理功能的接口
-public interface Rent {
+package service;
+
+/**
+ * 真实类（被代理的类）的接口
+ */
+public interface Real {
     //测试无参数的方法
     void test();
     //测试带参数的方法
