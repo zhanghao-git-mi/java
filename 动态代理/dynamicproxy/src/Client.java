@@ -7,6 +7,9 @@ public class Client {
         ProxyInovationHandler pih = new ProxyInovationHandler();
         pih.setObj(host);
         Rent proxy = (Rent) pih.getProxy();
-        proxy.Rent();
+        proxy.test();
+        proxy.testParams("张三","李四");
+        String a = proxy.testReturn("王五");
+        System.out.println(a);
     }
 }
