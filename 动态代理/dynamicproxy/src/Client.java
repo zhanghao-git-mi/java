@@ -1,3 +1,5 @@
+package dynamicproxy.src;
+
 import proxy.ProxyInovationHandler;
 import service.Real;
 import service.Real1;
@@ -6,6 +8,7 @@ import service.impl.RealImpl1;
 
 /**
  * 客户端
+ * @author 61677
  */
 public class Client {
     public static void main(String[] args) {
