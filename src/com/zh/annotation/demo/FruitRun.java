@@ -1,6 +1,6 @@
 package com.zh.annotation.demo;
 
-import com.zh.annotation.demo.annotationUtil.FruitInfoUtil;
+import com.zh.annotation.demo.util.FruitInfoUtil;
 import com.zh.annotation.demo.vo.Apple;
 
 /**

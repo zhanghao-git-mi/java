@@ -1,4 +1,4 @@
-package com.zh.annotation.demo.annotationUtil;
+package com.zh.annotation.demo.util;
 
 import com.zh.annotation.demo.annotation.FruitProvider;
 
